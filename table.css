@@ -1,0 +1,84 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 52px;
+
+  color: #355681;
+  text-transform: uppercase;
+}
+#labal {
+  /* margin: 1em 0 0.75em; */
+  padding: 0 0 5px 0;
+  color: #10436f;
+  font-weight: normal;
+  font-family: "Scada", sans-serif;
+  position: relative;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+#table {
+  margin-top: 28px;
+  background-color: rgb(159, 163, 165);
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+#tablenum {
+  background-color: rgb(159, 163, 165);
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+::placeholder {
+  color: rgb(11, 11, 11);
+}
+
+.button {
+  background-color: #355681;
+  border: 1px solid;
+  border-color: aliceblue;
+  color: aliceblue;
+  margin-top: 30px;
+  padding: 8px;
+  width: 52%;
+  font-size: 20px;
+}
+
+#result {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  padding: 10px;
+}
+
+.main-input-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
